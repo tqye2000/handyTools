@@ -27,10 +27,11 @@ def remove_bg(inImgFile, outImpFile):
 
 ##################### Main ###############################
 if __name__ == "__main__":
+
     # input image file / 输入图片文件
-    inImgFile = "IMG_20240921_165501.jpg"
+    inImgFile = "input_image.jpg"
     # output image file / 输出图片文件
-    outImpFile = "Jie2.png"
+    outImpFile = "output_image.png"
     # Call remove_bg
     remove_bg(inImgFile, outImpFile)
 
